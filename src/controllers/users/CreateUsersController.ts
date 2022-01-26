@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { CreateUserService } from "../services/CreateUserService";
+import { CreateUserService } from "../../services/users/CreateUserService";
 import md5 from "crypto-js/md5"
 
 class CreateUserController{

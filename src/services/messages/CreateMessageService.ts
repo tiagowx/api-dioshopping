@@ -1,5 +1,5 @@
 import { getCustomRepository } from "typeorm";
-import { MessagesRepository } from "../repository/MessagesRepository";
+import { MessagesRepository } from "../../repository/MessagesRepository";
 
 interface IMessage {
     email: string;

@@ -1,5 +1,5 @@
 import { getCustomRepository } from "typeorm";
-import { UsersRepository } from "../repository/UsersRepository";
+import { UsersRepository } from "../../repository/UsersRepository";
 
 interface IUser {
     email: string;
